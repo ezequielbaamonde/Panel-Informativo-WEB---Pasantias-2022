@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #696969;
+}
+/* ########################################################################### */
+/* Contenedor */
+.contenedor{
+    margin: auto; 
+    margin-top: 10px;  
+    width: 95.5%;
+    min-width: 95.5%;
+    height: 910px;
+    background-color: rgb(224, 224, 224);
+    border-radius:   11px 11px; /* top-left-right | bottom-right-left*/
+    border-color: black;
+    border-style: solid;
+
+}
+/* titulo del video */
+.videotitulo{
+    border-radius: 5px 5px 0px 0px;
+    position: absolute;
+    float: right;
+    margin-top: 35px;
+    margin-left: 1590px;
+    font-size: 35px;
+    background-color: #943126;
+    border-style: inset;
+    border-color: black;
+    color: white;
+    font-family: 'Tomorrow', sans-serif;
+}
+/* Video */
+.contenedor iframe{
+    position: relative;
+    float: right;
+    margin-top: 80px;
+    margin-right: 40px;
+    border-color: black;
+    border-style: inset;
+    border-width: 7px;
+}
+/* ########################################################################### */
+/* Parte Superior */
+.header{
+    background-color: #943126;
+    border-radius:   7px 7px 0px 0px; /* top-left | top-right | bottom-right | bottom-left */
+    text-align: center;
+    /* box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.2); */
+    border-bottom: solid;
+}
+/* p */
+.header p{
+    color: #fff;
+    font-size: 50px;
+    /* letter-spacing: 5px; */
+    
+}
+#titulo{
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 5px;    
+    text-shadow: 3px 3px 2px black; /* X - Y - DESENFOQUE - COLOR*/
+}
+#fecha_actual{
+    float: left;
+    /* padding-top: 15px;
+    padding-left: 10px; */
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Tomorrow', sans-serif;
+    background-color: #fff;
+    color: black;
+    border-radius: 7px 0px 7px 0px;
+    border-right: solid black;
+    border-bottom: solid black;
+}
+/* ########################################################################### */
+
+
+
+
+/* Noticias Tec4 */
+.noticiasTec4{
+    position: absolute;
+    background-color: #ffc4009a;
+    width: 600px;
+    height: 800px;
+    border-right: solid;
+}
+
+.noticiasTec4 center h1{
+    margin-top: 2px;
+    padding-bottom: 10px;
+}
+
+/* LOGO */
+
+
+/* ########################################################################### */
+/* TIEMPO */
+.footer{
+    position: absolute;
+    margin-top: 800px;
+    background-color: #943126;
+    width: 1833px;
+    height: 47px;
+    border-top: solid black;
+    border-right: solid black;
+    border-radius: 0px 0px 9px 7px;
+    align-items: center;
+    font-family: 'Tomorrow', sans-serif;
+    color: white;
+}
+
+/* Div footer title */
+.footer_title{
+    position: absolute;
+    background-color: #fff; /*#ffc300*/
+    height: 46.5px;
+    width: 400px;
+    border-radius: 0px 0px 0px 9px;
+    border-right: solid black;
+}
+
+/* Titulo footer */
+.footer_title p{
+    padding-top: 6px;
+    font-size: 30px;
+    color: black;
+}
+
+/* HORA, lista desordenada */
+.footer ul{
+    float: right;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* HORA, MINUTOS,SEGUNDOS,AMPM */
+.footer ul li{
+    float:left;
+    padding-right: 7px;
+    font-size: 44px;
+}

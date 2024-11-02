@@ -1,0 +1,42 @@
+img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    
+}
+/* SUBIR Y BORRAR NOTICIAS */
+.subirNoticias{
+    position: absolute;
+    background-color: rgba(141, 5, 5, 0.808);
+    width: 1905px;
+    height: 840px;
+    border-radius: 20px;
+}
+
+/* TITULO */
+.title{
+    letter-spacing: 3px;
+}
+
+/* INPUTS */
+.noticia{
+    font-size: 20px;
+    width: 500px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.opciones{
+    font-size: 20px;
+    width: 200px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.enviar{
+    font-size: 20px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+}
